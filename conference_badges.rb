@@ -12,8 +12,10 @@ return ary
 end
 
 def assign_rooms(array)
+  ary = []
   array.each_with_index do |name, ind|
 room = ind + 1
-return "Hello, #{name}! You'll be assigned to room #{room}!"
+ary.push("Hello, #{name}! You'll be assigned to room #{room}!")
 end
+return ary
 end
