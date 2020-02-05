@@ -19,3 +19,7 @@ ary.push("Hello, #{name}! You'll be assigned to room #{room}!")
 end
 return ary
 end
+
+def printer(array)
+
+end
