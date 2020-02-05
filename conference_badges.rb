@@ -17,5 +17,3 @@ room = ind + 1
 return "Hello, #{name}! You'll be assigned to room #{room}!"
 end
 end
-
-  
